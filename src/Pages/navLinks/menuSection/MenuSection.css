@@ -1,0 +1,87 @@
+.carousel-indicators {
+    display: none !important;
+}
+
+.react-multiple-carousel__arrow--right {
+    background-color: #827675;
+    text-align: center;
+}
+
+.react-multiple-carousel__arrow--left {
+    background-color: #827675;
+}
+
+.footer-top-border {
+    border-top: 4px solid #f04e30;
+}
+
+.crousel_text {
+    font-weight: 600 !important;
+    z-index: 999 !important;
+}
+
+#crousel_textt {
+    font-weight: 600 !important;
+    z-index: 999 !important;
+}
+
+.react-multiple-carousel__arrow--right::before {
+    content: "dsdsd";
+    background: url(../../../assets/pageOne/arrowsqq.png);
+    color: transparent;
+    background-size: 55px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+    left: 3px;
+}
+
+.react-multiple-carousel__arrow--right {
+    right: calc(19% + 1px);
+    background-color: #746c6b;
+
+}
+
+.react-multiple-carousel__arrow--left::before {
+    content: "dsdsd";
+    background: url(../../../assets/pageOne/arrowsqq.png);
+    color: transparent;
+    background-size: 55px;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(-90deg);
+    right: 3px;
+}
+
+.react-multiple-carousel__arrow--left {
+    left: calc(17% + 1px);
+    background-color: #746c6b;
+
+}
+
+.bottom_text {
+    font-family: 'Open Sans', Helvetica, Arial, Lucida, sans-serif !important;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer_icon_color2 span i {
+    font-size: 24px !important;
+    color: #f7ea2f;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+    .react-multiple-carousel__arrow--left {
+        left: calc(29% + 1px);
+        bottom: calc(3% + 1px);
+        background-color: #746c6b;
+    }
+
+    .react-multiple-carousel__arrow--right {
+        right: calc(30% + 1px);
+        bottom: calc(3% + 1px);
+        background-color: #746c6b;
+    }
+}

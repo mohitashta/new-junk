@@ -1,0 +1,12 @@
+#text_color_items {
+    font-family: 'Anek Bangla', sans-serif;
+    font-size: 29px;
+    font-weight: 600;
+    color: yellow;
+    line-height: 1.2em;
+}
+
+.img_bg_hover:hover {
+    opacity: 0.8;
+
+}

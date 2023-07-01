@@ -1,0 +1,93 @@
+.email_text {
+    font-family: 'DM Sans', sans-serif;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.signup_btn {
+    font-family: 'DM Sans', sans-serif;
+    background-color: #fdc500;
+    font-size: 20px;
+    padding: 7px 0 7px 0 !important;
+    width: 220px !important;
+    border-radius: 31px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.signup_btn:hover {
+    background-color: #fcb900;
+}
+
+.signup_btn:hover {
+    border: 0px !important;
+}
+
+.text_size_title h2 {
+    font-family: 'Anek Bangla', sans-serif;
+    letter-spacing: .2px;
+    line-height: 1.2em;
+    font-weight: 600;
+    font-size: 29px;
+    color: #f7ea2f;
+}
+
+.text_size_para h3 {
+    font-family: 'Anek Bangla', Helvetica, Arial, Lucida, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: .2px;
+    color: #f7ea2f;
+}
+
+#bg_color1 {
+    border-bottom: 2px solid #f7ea2f !important;
+    background-color: #f04e30;
+}
+
+@media (min-width :0px) and (max-width: 767px) {
+    #bg_color1 {
+        border-bottom: 2px solid #f7ea2f !important;
+        background-color: #f04e30;
+    }
+
+    .text_size_title h2 {
+        font-family: 'Anek Bangla', Helvetica, Arial, Lucida, sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .text_size_para h3 {
+        font-family: 'Anek Bangla', Helvetica, Arial, Lucida, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .signup_btn {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 7px 50px !important;
+    }
+}
+
+@media (min-width :0px) and (max-width: 360px) {
+
+    .signup_btn {
+        width: 185px !important;
+    }
+}
+
+@media (min-width :0px) and (max-width: 260px) {
+    .email_text {
+        font-size: 11px;
+    }
+
+    .signup_btn {
+        font-size: 13px;
+        /* width: 159px !important; */
+        padding: 12px 12px !important;
+    }
+}

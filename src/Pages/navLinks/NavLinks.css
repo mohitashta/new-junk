@@ -1,0 +1,134 @@
+.navlinks_bg_color {
+    background-color: #f04e30;
+}
+
+#links_text_color {
+    font-family: 'DM Sans', sans-serif;
+    color: #f7ea2f;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+a p {
+    font-family: 'DM Sans', sans-serif;
+    color: #f7ea2f;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#bg_color {
+    border-bottom: 2px solid #f7ea2f;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f04e30;
+    color: #f7ea2f;
+    font-weight: 700;
+    border-top: 3px solid #f7ea2f;
+    width: max-content !important;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 8px 20px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a:hover {
+    color: black !important;
+}
+
+a p:hover {
+    color: black !important;
+}
+
+
+p:hover {
+    background-color: #f86042 !important;
+}
+
+@media (min-width:0px) and (max-width: 767px) {
+    .img-fluid {
+        max-width: 141%;
+        height: auto;
+    }
+
+    #bg_color {
+        border-bottom: none;
+    }
+
+    .bg_mobile_color {
+        background-color: #f04e30;
+        padding: 30px 0px;
+    }
+
+    .inner_links p {
+        font-family: 'DM Sans', sans-serif;
+        color: #f7ea2f;
+        font-weight: 500;
+        font-size: 26px;
+    }
+
+    /* .img_size {
+        width: 72%;
+        height: 100%;
+    } */
+
+    #links_text_color {
+        font-family: 'DM Sans', sans-serif;
+        color: #f7ea2f;
+        letter-spacing: 1px;
+        font-weight: 500;
+        font-size: 22px;
+    }
+
+    i {
+        font-family: 'DM Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .bar_size1 {
+        color: #F7EA2F !important;
+        font-size: 31px !important;
+    }
+
+    .bg_height {
+        height: 300vh !important;
+        background-color: #f04e30;
+    }
+
+    .nav_links_center {
+        top: 5rem;
+    }
+
+    .bar_size {
+        display: inline-block;
+        position: fixed;
+        right: 23px;
+        top: 20px;
+        z-index: 1000;
+        background: url('../../assets/pageOne/close.png')no-repeat center center;
+        background-size: cover;
+        width: 29px;
+        height: 29px;
+    }
+
+    .offcanvas {
+        transition: 0.9s;
+    }
+
+
+
+
+}

@@ -1,0 +1,30 @@
+* {
+    /* border: 1px solid blue; */
+}
+
+.bg_image {
+    background-image: url('../../../assets/pageOne/mainimage.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 700px;
+}
+
+.content_one {
+    font-family: 'Akshar', sans-serif;
+    font-weight: 800;
+    font-size: 26px;
+    color: #f7ea2f;
+    line-height: 31.2px;
+}
+
+@media (min-width: 0) and (max-width:575px) {
+    .bg_image {
+        background-image: url('../../../assets/pageOne/mainimages.png');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 700px;
+    }
+
+}
